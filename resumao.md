@@ -1,9 +1,9 @@
 ---------------------------------------------------------------------------------------------------------------------------------
-SISTEMA                                                                         |
+SISTEMA                                                                         
 ---------------------------------------------------------------------------------------------------------------------------------
-logout           -> encerra de uma vez a sessão do usuário;                     |
-<ctrl>+d         -> também funciona como logout mas nem sempre está habilitado; |
-exit             -> encerra somente o shell corrente;                           |
+logout           -> encerra de uma vez a sessão do usuário;                     
+<ctrl>+d         -> também funciona como logout mas nem sempre está habilitado; 
+exit             -> encerra somente o shell corrente;                           
 ---------------------------------------------------------------------------------------------------------------------------------
 ARQUIVOS E DIRETÓRIOS
 ---------------------------------------------------------------------------------------------------------------------------------
@@ -21,6 +21,7 @@ grep             -> procura arquivos por conteúdo;
 find             -> localiza arquivo por suas características;
 basename         -> devolve o nome de um arquivo recebendo o caminho completo;
 dirname          -> devolve o nome do diretório recebendo o caminho completo;
+dir              -> lista o contéudo do diretório;
 . (ponto)        -> diretório atual;
 .. (dois pontos) -> diretório anterior;
 ~ (til)          -> diretório home do usuário;
@@ -67,3 +68,30 @@ DATA E HORA
 ---------------------------------------------------------------------------------------------------------------------------------
 date -> mostra e acerta data/hora;
 cal  -> exibe o calendário;
+---------------------------------------------------------------------------------------------------------------------------------
+BACKUP
+---------------------------------------------------------------------------------------------------------------------------------
+tar        -> para agrupar vários arquivos em somente um;
+compress   -> é o utilitário de compressão de arquivos padrão do unix;
+uncompress -> descomprime arquivos compactados pelo compress;
+zcat       -> permite visualizar o contéudo de arquivos compactados com compressos;
+gzip       -> é o utilitário de compressão de arquivos padrão do linux;
+gunzip     -> descomprime arquivos compactado pelo gzip;
+---------------------------------------------------------------------------------------------------------------------------------
+CONTROLE DE EXECUÇÃO
+---------------------------------------------------------------------------------------------------------------------------------
+ps    -> mostra status dos processos em execução;
+kill  -> envia sinal a processo;
+jobs  -> lista processos em background e suspensos;
+bg    -> passa processo para background;
+fg    -> traz processo para foreground;
+Nohup -> executa processo independente de terminal; TODO: ???
+---------------------------------------------------------------------------------------------------------------------------------
+AGENDAR TAREFAS
+---------------------------------------------------------------------------------------------------------------------------------
+crontab -> programa para instalar, desinstalar ou listar as tabelas usadas pelo programa (daemon) cron; TODO: ???
+cron    -> agendar a execução de tarefas administrativas; TODO: ???
+at      -> este comando permite que se programem datas e horas para execução de tarefas; TODO: ???
+batch   -> executar tarefas pesadas em segundo plano (background); TODO: ???
+
+TODO: transformar em markdown

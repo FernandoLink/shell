@@ -9,3 +9,5 @@
 /usr/lib     - bibliotecas de funções;
 /usr/spool   - áreas de spool;
 /dev         - arquivos especiais de dispositivo;
+
+TODO: transformar em markdown
