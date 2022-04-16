@@ -18,6 +18,7 @@ tee    -> captura a saída de um comando com pipe, copiando o que está entrando
           e outro comando ou arquivo;
 $$     -> representa o pid (process identification);
 ed     -> editor de text orientado a linha;
+sed    -> editor para filtrar e transformar texto;
 
 
 
